@@ -1,1 +1,11 @@
 List of Git Commands:
+init: Creates a new local repository.
+status: Lists files that have been changed, and any ones you still need to add/commit.
+add filename: Adds the file to the staging area.
+diff filename: Shows the changes between commits.
+commit -m"Dialogue": Commits any changes to the head, but not to the remote repository yet. 
+log: Shows a list of changes, as well as the SHA code. 
+show HEAD: Shows various types of objects.
+checkout HEAD filename: Copy files from the index to the working tree.
+add filename_1 filename_2: Adds both files to the staging area.
+reset: Resets the current HEAD to the specified state. 
