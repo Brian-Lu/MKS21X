@@ -9,3 +9,4 @@ show HEAD: Shows various types of objects.
 checkout HEAD filename: Copy files from the index to the working tree.
 add filename_1 filename_2: Adds both files to the staging area.
 reset: Resets the current HEAD to the specified state. 
+I like to fail my tests.
