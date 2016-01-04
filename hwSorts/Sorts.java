@@ -23,4 +23,15 @@ public class Sorts{
 	    }
 	}
     }
+    public static void selectionSort(int[] data) {
+	int min = data[0];
+	for (int i = 0; i < data.length; i++) {
+	    for (int z = i; z < data.length; z++) {
+		if (data[z] < min) {
+		    min = data[z];
+		}
+	    }
+	    data[i] = minIndex;
+	}
+    }
 }
